@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    background-color: #242f2f;
+    height: 100%;
+    width: 100%;
+}
+#main-div {
+	display: table;
+	height: 100%;
+    width: 100%;
+}
+
+#stats {
+	background: #641f5f;
+	display: table-cell;
+	vertical-align: top;
+	height: 100%;
+	width: 400px;
+}
+
+#playground {
+	background-color: #745fff;
+	display: table-cell;
+	vertical-align: top;
+	height: 100%;
+	width: auto;
+}
+
+.player {
+	border-color: #DAC000;
+	bottom: 0px;
+	position: absolute;
+}
+
+.container {
+	/* size defined by js */
+	background-color: #344f5f;
+	margin: 10px;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.card {
+	/* size defined by js */
+	background-color: #545f5f;
+	display: inline-block;
+	margin: 0px;
+}
