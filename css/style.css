@@ -3,49 +3,52 @@
 }
 
 html, body {
-    background-color: #242f2f;
     height: 100%;
     width: 100%;
+    -moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
 }
+
 #main-div {
 	display: table;
 	height: 100%;
     width: 100%;
 }
 
-#stats {
-	background: #641f5f;
+.panel {
 	display: table-cell;
 	vertical-align: top;
 	height: 100%;
-	width: 400px;
-}
-
-#playground {
-	background-color: #745fff;
-	display: table-cell;
-	vertical-align: top;
-	height: 100%;
-	width: auto;
-}
-
-.player {
-	border-color: #DAC000;
-	bottom: 0px;
-	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #AAC000;
 }
 
 .container {
 	/* size defined by js */
-	background-color: #344f5f;
-	margin: 10px;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
 	border-style: solid;
-	border-width: 5px;
+	border-width: 1px;
+	border-color: #AAC000;
+	text-align: center;
 }
+
+/*
+.player-deck {
+	/* size defined by js
+	margin-bottom: 0px;
+	position: absolute;
+	border-color: #DAC000;
+	bottom: 0px;
+	width: 100%;
+	box-sizing: border-box;
+}*/
 
 .card {
 	/* size defined by js */
 	background-color: #545f5f;
 	display: inline-block;
-	margin: 0px;
 }
