@@ -20,15 +20,13 @@ function resize() {
 }
 
 function resizeContainers() {
+	var padding = $('.panel').css("padding-top");
+	padding = padding.substring(0,padding.length-2);
+	var height = $(window).height()-2*padding;
 	
-	var height = $(window).height()-2;
-	var margin = $('.container').css("margin-bottom");
-	margin = margin.substring(0,margin.length-2);
-	
-	var border = $('.container').css("border-left-width");
+	var border = $('.container').css("border-top-width");
 	border = border.substring(0,border.length-2);
-	
-	var h = (height-margin)/6 - margin-2*border;
+	var h = (height/6)-2*border;
 	$('.container').css("height", h+"px"); 
 }
 

@@ -24,28 +24,16 @@ html, body {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #AAC000;
+	padding-top: 0.7%;
 }
 
 .container {
 	/* size defined by js */
-	margin-top: 1.5%;
-	margin-bottom: 1.5%;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #AAC000;
 	text-align: center;
 }
-
-/*
-.player-deck {
-	/* size defined by js
-	margin-bottom: 0px;
-	position: absolute;
-	border-color: #DAC000;
-	bottom: 0px;
-	width: 100%;
-	box-sizing: border-box;
-}*/
 
 .card {
 	/* size defined by js */
