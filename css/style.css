@@ -1,6 +1,11 @@
 * {
     margin: 0;
 }
+/*
+div {
+	outline: #00FF00 solid 1px;
+}
+*/
 
 html, body {
     height: 100%;
@@ -21,22 +26,25 @@ html, body {
 	display: table-cell;
 	vertical-align: top;
 	height: 100%;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #AAC000;
-	padding-top: 0.7%;
+}
+
+.hpanel {
+	display: table;
+	width: 100%;
 }
 
 .container {
-	/* size defined by js */
-	border-style: solid;
-	border-width: 1px;
-	border-color: #AAC000;
+	margin: 0 auto;
 	text-align: center;
 }
 
 .card {
 	/* size defined by js */
+	
+	height: 95%;
 	background-color: #545f5f;
 	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
